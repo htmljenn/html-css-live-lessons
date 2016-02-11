@@ -1,0 +1,29 @@
+#section1 {
+  width: 80%;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FFFFFF),
+	color-stop(1, #00FFFF)
+);
+background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #00FFFF 100%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #00FFFF 100%);
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #00FFFF 100%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #00FFFF 100%);
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #00FFFF 100%);
+  background-color: aqua;
+  border-radius: 1em;
+}
+
+h2 {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75); 
+}
+
+#section2 {
+  width: 70%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75); 
+}

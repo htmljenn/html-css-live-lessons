@@ -1,0 +1,11 @@
+blockquote:before {
+  content: open-quote; 
+}
+blockquote:after {
+  content: close-quote; 
+}
+
+q {
+  font-style: italic; 
+  background-color: rgba( 0,0,0,0.1 );
+}
