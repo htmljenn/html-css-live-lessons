@@ -1,0 +1,8 @@
+#main { 
+  width: 80%;
+  max-width: 960px;
+  min-width: 600px;
+  background-color: #fff;
+  margin: 0 auto; 
+}
+body { background-color: #dfdfdf; }

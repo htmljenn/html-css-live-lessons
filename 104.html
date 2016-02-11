@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+    <style>
+      table { 
+        width: 100%;
+        border: solid black 1px;
+        border-collapse: collapse;
+      }
+      td, th {
+        border: solid black 1px;
+        text-align: left; 
+      }
+      .center { text-align: center; }
+
+    </style>
+ </head>
+  <body>
+    <h1>Tables</h1>
+    <h2>By Jennifer Kyrnin</h2>
+    <table>
+      <thead>
+      <tr>
+        <th></th>
+        <th>header</th>
+        <th>header</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td colspan="3" class="center">My 3-column row</td>
+      </tr>
+      <tr>
+        <td rowspan="3">My 3-row column</td>
+        <td>Row 1 Column 1</td>
+        <td>Row 1 Column 2</td>
+      </tr>
+      <tr>
+
+        <td>Row 1 Column 1</td>
+        <td>Row 1 Column 2</td>
+      </tr>
+      <tr>
+
+        <td>Row 1 Column 1</td>
+        <td>Row 1 Column 2</td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+        <th>Header Row 2</th>
+        <td>Row 2 Column 1</td>
+        <td>Row 2 Column 2</td>
+      </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
